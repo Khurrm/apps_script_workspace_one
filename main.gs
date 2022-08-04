@@ -14,6 +14,8 @@ var contenttype = 'application/json';
 var authy = "Basic " + 'XXXXXXXXXXXXXXXXXXXXXXXXX';
 Logger.log(authy);
 
+//Base64 encoding of username and password for HTTP header
+var authHeader = "Basic " + Utilities.base64Encode(USERNAME + ':' + PASSWORD);
 
 
 }
