@@ -17,5 +17,16 @@ Logger.log(authy);
 //Base64 encoding of username and password for HTTP header
 var authHeader = "Basic " + Utilities.base64Encode(USERNAME + ':' + PASSWORD);
 
+//var options = authHeader + 'aw-tenant-code='+ tenantcode;
+// Include 'options' object in every request 
+
+var headers = {
+        "Accept": "application/json",
+        "Content-Type": "application/json",
+        "Authorization": "Basic "+ 'XXXXXXXXXXXXXXXXXXXXXXXXXX',
+        "aw-tenant-code": tenantcode
+     
+}; 
+//var headers = { "Authorization" : authy };
 
 }
