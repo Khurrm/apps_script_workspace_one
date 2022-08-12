@@ -35,4 +35,7 @@ var options = {"method": "Get",
                  
 Logger.log(options);
 
+//Testing the response. 
+var response = UrlFetchApp.fetch(url1,options);
+
 }
