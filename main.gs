@@ -37,5 +37,10 @@ Logger.log(options);
 
 //Testing the response. 
 var response = UrlFetchApp.fetch(url1,options);
+//var response = UrlFetchApp.fetch(url, options);
+ //var response = UrlFetchAppfetchAll() //var response = UrlFetchApp.fetchAll(headers1)
+Logger.log(response); 
 
+var content = response.getContentText();
+var json = JSON.parse(content);
 }
