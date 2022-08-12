@@ -28,5 +28,11 @@ var headers = {
      
 }; 
 //var headers = { "Authorization" : authy };
+//Adding the query parameters
+var options = {"method": "Get",
+                 "headers": headers
+                };
+                 
+Logger.log(options);
 
 }
