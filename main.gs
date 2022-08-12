@@ -43,4 +43,7 @@ Logger.log(response);
 
 var content = response.getContentText();
 var json = JSON.parse(content);
+
+//Logger.log(json["PageSize"])
+Logger.log(json.Total)
 }
