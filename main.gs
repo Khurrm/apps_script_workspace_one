@@ -52,4 +52,10 @@ Logger.log(json.Devices[2].SerialNumber)
 Logger.log(json.Devices[0].TimeZone)
 Logger.log(json.Devices[0].UserEmailAddress)
  //var response = UrlFetchApp.fetch(url);
+ 
+//Adding a Loop
+for (var counter = 0; counter <(json.Total); counter = counter + 1) {
+
+}
+
 }
