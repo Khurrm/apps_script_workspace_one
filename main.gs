@@ -55,6 +55,9 @@ Logger.log(json.Devices[0].UserEmailAddress)
  
 //Adding a Loop
 for (var counter = 0; counter <(json.Total); counter = counter + 1) {
+Logger.log(json.Devices[counter].SerialNumber);
+
+//return json.Devices[counter].SerialNumber
 
 }
 
